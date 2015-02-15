@@ -1,0 +1,8 @@
+# contributor: Mustafa Shameem (shameem.org)
+# name: defmacro
+# key: dmx
+# group: Mustafa Defined
+# --
+(defmacro ${1:$$(replace-regexp-in-string " " "-" yas/text)} ($2)
+"$3"
+`($4))

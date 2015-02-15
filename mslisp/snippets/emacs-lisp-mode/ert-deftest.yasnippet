@@ -1,0 +1,8 @@
+# contributor: Mustafa Shameem (shameem.org)
+# name: ert-deftest
+# key: e
+# group: Mustafa Defined
+# --
+(ert-deftest ${1:$$(replace-regexp-in-string " " "-" yas/text)} ()
+  "$2"
+  ($3))

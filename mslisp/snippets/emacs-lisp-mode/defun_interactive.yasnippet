@@ -1,0 +1,9 @@
+# contributor: Mustafa Shameem (shameem.org)
+# name: defun interactive
+# key: dfi
+# group: Mustafa Defined
+# --
+(defun ${1:$$(replace-regexp-in-string " " "-" yas/text)} ($2)
+"$3"
+(interactive)
+($4))

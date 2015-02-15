@@ -1,0 +1,9 @@
+# contributor: Mustafa Shameem (shameem.org)
+# name: defn-first-rest
+# key: defn-first-rest
+# key: dfr
+# --
+(defn ${1:$$(replace-regexp-in-string " " "-" yas/text)}
+  "$3"
+  [[x & more$2]]
+  ($0))
